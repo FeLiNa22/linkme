@@ -1,0 +1,32 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "i18n-ally.namespace": true,
+  "i18n-ally.localesPaths": ["./frontend/src/locales"],
+  "i18n-ally.pathMatcher": "{locale}/{namespaces}.json",
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.displayLanguage": "en",
+  "i18n-ally.defaultNamespace": "common",
+  "i18n-ally.extract.autoDetect": true,
+  "i18n-ally.editor.preferEditor": true,
+  "i18n-ally.extract.targetPickingStrategy": "most-similar-by-key",
+  "i18n-ally.translate.parallels": 5,
+  "i18n-ally.translate.saveAsCandidates": true,
+  "i18n-ally.translate.promptSource": false,
+  "i18n-ally.translate.overrideExisting": false,
+  "i18n-ally.enabledFrameworks": ["react-i18next"],
+  "i18n-ally.translate.engines": ["deepl", "google", "google-cn"],
+  "i18n-ally.translate.deepl.apiKey": "deepl-api-key",
+  "i18n-ally.translate.deepl.useFreeApiEntry": true,
+  "i18n-ally.keystyle": "nested"
+}

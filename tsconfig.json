@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "strict": true,
+
+    // Don't emit anything by default
+    "noEmit": true,
+
+    // Code rules
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noUncheckedIndexedAccess": true,
+    "strictNullChecks": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@local/frontend/*": ["./frontend/src/*"],
+      "@local/api/*": ["./api/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}

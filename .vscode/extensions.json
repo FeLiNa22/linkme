@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "lokalise.i18n-ally",
+    "ms-azuretools.vscode-docker",
+    "mongodb.mongodb-vscode",
+    "prisma.prisma"
+  ]
+}

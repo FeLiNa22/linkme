@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // Always emit on build by default
+    "noEmit": false,
+
+    "target": "es6",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "jsx": "react"
+  },
+  "exclude": ["node_modules", "build"]
+}

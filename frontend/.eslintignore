@@ -1,0 +1,7 @@
+node_modules
+build
+src/@types/resources.d.ts
+package-lock.json
+.next
+next-env.d.ts
+__generated__
